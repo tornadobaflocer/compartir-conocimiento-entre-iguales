@@ -1,7 +1,7 @@
 {
   "name": "compartir-conocimiento-entre-iguales",
   "version": "1.0.0",
-  "description": "Plataforma de intercambio de conocimientos",
+  "description": "Knowledge exchange platform",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/server.js"
@@ -9,6 +9,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   },
   "repository": {
     "type": "git",
